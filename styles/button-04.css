@@ -1,0 +1,23 @@
+/* Referência - Codier.io - Tom Snelling 2018 */
+
+  .btn_style--04 {
+    padding: 24px 36px;
+    font-size: 40px;
+    background-color: #29b765;
+    color: #eee;
+    border: none;
+    border-radius: 2px;
+    transform: rotateX(35deg);
+    box-shadow: 0 8px 1px #208e4f;
+    transition: 0.15s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .btn_style--04:hover {
+    box-shadow: 0 2px 1px #208e4f;
+    transform: rotateX(35deg) translateY(6px);
+  }
+  .btn_style--04:focus {
+    outline: none;
+  }
+  

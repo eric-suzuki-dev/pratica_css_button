@@ -1,0 +1,48 @@
+/* Referência - Codier.io - Raphael 2018 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.btn_style--03 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid;
+    box-shadow: 4px 4px 9px -3px rgba(161, 161, 161, 1);
+}
+
+.btn_style--03:hover {
+    animation: buttonAnimation 1s both infinite;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        border-top: 1px solid #74ebd5;
+        border-left: 1px solid #74ebd5;
+        border-right: 1px solid #acb6e5;
+        border-bottom: 1px solid #acb6e5;
+    }
+
+    33% {
+        border-top: 1px solid #74ebd5;
+        border-left: 1px solid #acb6e5;
+        border-right: 1px solid #74ebd5;
+        border-bottom: 1px solid #acb6e5;
+    }
+
+    66% {
+        border-top: 1px solid #acb6e5;
+        border-left: 1px solid #acb6e5;
+        border-right: 1px solid #74ebd5;
+        border-bottom: 1px solid #74ebd5;
+    }
+
+    100% {
+        border-top: 1px solid #acb6e5;
+        border-left: 1px solid #74ebd5;
+        border-right: 1px solid #acb6e5;
+        border-bottom: 1px solid #74ebd5;
+    }
+}
